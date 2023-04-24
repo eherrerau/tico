@@ -1,0 +1,196 @@
+@charset "utf-8";
+/* CSS Document */
+@import "globalStyle.css";
+
+/* Main frame, inherits from the main.css */
+#principal #mainContentLogin{
+	position: relative;
+	height: 97%;
+	top:35px;
+	margin:auto auto;
+}
+#principal #header #titulo h1{
+	width:100%;
+}
+/* external box that contains the login*/
+#principal #mainContentLogin #MainLoginBox {
+	position:relative;
+	width:310px;
+	height:350px;
+	clear:both;
+	margin: 10% auto;
+	border: thin solid #CCC;
+	border-radius:15px;
+	-moz-border-radius:15px;
+	-moz-box-shadow: 3px 3px 30px #333;
+	-webkit-box-shadow: 3px 3px 30px #333;
+	box-shadow: 3px 3px 30px #333;
+}
+/* Holds the form */
+ #LoginForm{
+	position:relative;
+	height:100%;
+	float:none;
+	width: 70%;
+	margin:auto auto auto auto;
+	clear:both;	
+	font-size:0.80em;
+}
+/* hold the top icon */
+#LoginIconImage{
+	/*border: thin solid #CCC;*/
+	position:relative;
+	margin:auto;
+	clear:both;
+	top:25px;
+	width: 128px;
+	height:128px;
+	background-image: url(../images/userlogin.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+/* Shows the error message if they are any */
+#LoginErrorMessageLabel{
+/*	border: thin solid #F00;*/
+	position:absolute;
+	margin:auto auto;
+	top:160px;
+	width:99%;	
+	color: #DC4A38;	
+	text-align:center;
+	bottom: 0;
+}
+/* Holds inside the username label and textbox divs, one next to each other*/
+#LoginUserNameContainer{
+	position:absolute;
+	margin:0px;
+	top:180px;
+	width:100%;
+	height:20px;
+	padding: 0px;
+	font-weight: bold;
+	vertical-align: middle;
+	line-height:190%;
+}
+/* holds the user name label */
+#LoginUserNameLabel{
+	position:absolute;
+	top:0px;
+	width:50%;
+	left:0;	
+	text-align:right;
+	font-size: 1em;
+	bottom: 0;
+	height:20px;
+	vertical-align: middle;
+}
+/* holds the username textbox */
+#LoginUserNameTextbox{
+	position:absolute;
+	top:0px;
+	width:50%;
+	right:0;
+	text-align:right;
+	height:20px;
+	vertical-align: middle;
+}
+/* Holds inside the password label and textbox divs, one next to each other*/
+#LoginPasswordContainer{
+	position:absolute;
+	top:210px;
+	width:100%;
+	height:20px;
+	padding: 0px;
+	font-weight: bold;	
+	vertical-align: middle;
+	line-height:190%;
+}
+/* holds the password label */
+#LoginPasswordLabel{
+	position:absolute;
+	top:0px;
+	width:50%;
+	height:20px;
+	left:0;
+	text-align:right;
+	bottom: 0;
+	vertical-align: middle;
+}
+/* holds the password textbox */
+#LoginPasswordTextbox{
+	position:absolute;
+	top:0px;
+	width:50%;
+	height:20px;
+	right:0;	
+	text-align:right;
+	vertical-align: middle;
+}
+/* Holds inside the team selector label and textbox divs, one next to each other*/
+#LoginTeamSelector{
+	position:absolute;
+	/*margin:0;*/
+	/*margin-right:5px;*/
+	top:235px;
+	width:100%;
+	height:20px;
+	font-weight: bold;
+	vertical-align: middle;
+}
+/* holds the team selector label */
+#LoginTeamSelectorLabel{
+	position:absolute;
+	top:0px;
+	width:50%;
+	height:20px;
+	left:0;
+	text-align:right;
+	vertical-align: middle;
+}
+/* holds the team selector combobox */
+#LoginTeamSelectorCombobox{
+	position:absolute;
+	top:0px;
+	width:50%;
+	height:20px;
+	right:0;	
+	text-align:right;
+	vertical-align: middle;
+}
+
+#input[type="text"]{
+	width:108px;
+	color:#06F;
+	border-color:#FFFFFF
+}
+select{
+	border: thin inset #0070B7;
+	-moz-box-shadow: inset 0 0 2px 2px #0070B7;
+	-webkit-box-shadow: inset 0 0 2px 2px #0070B7;
+	box-shadow: inset 0 0 2px 2px #0070B7;
+}
+/* holds the submit button */
+/*#principal #mainContent #MainLoginBox #LoginForm #loginForm */
+#LoginSubmitButton a:link,#LoginSubmitButton a:visited{
+	position:absolute;
+	top:270px;
+	right:0;
+	width:45px;
+	height:27px;
+	background:url(../images/bugen.png) no-repeat left bottom;
+	text-align:center;
+	padding:0 15px 0 15px;
+	margin-right: 0px;
+	color:#FFF;	
+	border-radius:5px;
+	-moz-border-radius:5px;
+	font-size: 14px;
+	vertical-align: middle;
+	font-family: HPSimplifiedW04-Regular, Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	line-height:200%;
+}
+#LoginSubmitButton a:hover,#LoginSubmitButton a:active{
+	background-position:left top;
+}

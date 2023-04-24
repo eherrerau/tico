@@ -1,0 +1,699 @@
+@charset "utf-8";
+/* CSS Document */
+/* ===== Global styles ===== */
+@import "globalStyle.css";
+
+#principal #mainContent #profileImage{
+    background-image:url(../images/profile.png);
+    width:128px;
+    height:128px;
+}
+/* ===== mainContent ===== */
+#principal #mainContent {
+    float: left;
+    width: 100%;
+    height: 100%;
+    top: 165px;
+    min-width: 1254px;
+}
+#principal #mainContent #engineers{
+    float: left;
+    width:49%;    
+    border:dashed thin #CCC;
+    border-radius:15px;
+    -moz-border-radius:15px;
+    margin-left:2px;
+    padding: 0px 2px;
+    min-width:540px;
+}
+/* ----- graphs section ----- */
+#principal #mainContent #graphs{
+    position:absolute;
+    left:52%;
+    width:45%;
+    height:100%;
+    top:0px;
+    border:solid thin #CCC;
+    border-radius:15px;
+    -moz-border-radius:15px;
+    ;
+}
+#principal #mainContent #engineers #message{
+    position:absolute;
+    right:0;
+    top:0;
+    width:100%;
+    height:20px;
+    padding:10px;
+    color:#FF3300;
+}
+#principal #mainContent #engineers #formul{
+    float: left;
+    padding:10px;
+}
+#principal #mainContent #engineers #info{
+    float: left;
+    width:97%;
+    padding:10px;
+    top:430px;
+    color:#333;
+    font-size:12px;
+    border: solid thin #CCC;
+    border-radius: 15px;
+    overflow: auto;
+    height: 145px;
+}
+#principal #mainContent #engineers #info form{
+    margin: 0px;
+    height: 8px;
+}
+.leftColunmOnProfile{
+    float: left;
+    padding:0px;
+    width: 130px;
+    height: 20px;
+    margin-left: 0px;
+    margin-bottom: 3px;
+    text-align: right;
+    color:#666;
+    font-size:14px;
+}
+.rightColumOnProfile{
+    float: left;
+    padding:0px;    
+    height: 20px;
+    margin-left: 0px;
+    margin-bottom: 3px;
+    text-align: left;
+    color:#666;
+    font-size:14px;
+}
+#principal #mainContent #engineers #formul #displayNameT{
+}
+#principal #mainContent #engineers #formul #displayName{
+    width: 155px;
+}
+#principal #mainContent #engineers #formul #chgpass,
+#principal #mainContent #engineers #formul #chgpass a{
+    float: right;
+    font-size:11px;    
+    text-decoration: none;
+    font-weight: bold;
+    padding: 3px 5px;
+    color: #FFF;
+    border: solid thin #3079ED;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 0px;
+    /*border-radius: 5px;*/    
+    background-color: #3079ED;
+}
+#principal #mainContent #engineers #formul #displayMailT{
+    clear:both;
+}
+#principal #mainContent #engineers #formul #displayMail{
+    width:215px;
+}
+#principal #mainContent #engineers #formul #displayPhoneT{
+    clear: both;
+}
+#principal #mainContent #engineers #formul #displayPhone{
+    width:200px;
+}
+#principal #mainContent #engineers #formul #displayBdayT{
+    clear: both;
+}
+#principal #mainContent #engineers #formul #displayBday{
+    width:150px;
+}
+#principal #mainContent #engineers #formul #displayPremierT{
+    clear: both;
+}
+#principal #mainContent #engineers #formul #displayPremier{
+    width:20px;
+}
+
+#principal #mainContent #engineers #formul #displayTeamT{
+    clear: both;
+}
+#principal #mainContent #engineers #formul #displayTeam{
+    width: 200px;
+}
+#principal #mainContent #engineers #formul #displayRolesT{
+    clear: both;
+}
+#principal #mainContent #engineers #formul #displayRoles{
+}
+#principal #mainContent #engineers #formul #displayProductT{
+    clear: both;
+    height: 0px;
+}
+#principal #mainContent #engineers #formul #displayProduct{
+    margin-left: 130px;    
+}
+#principal #mainContent #engineers #formul #displayStatusT{
+    clear: both;
+    margin-top: 10px;
+}
+#principal #mainContent #engineers #formul #displayStatus{
+}
+/*********boton********/
+#principal #mainContent #engineers #formul #boton{
+    position:relative;
+    float: right;
+    font-size:14px;	
+    top:0px;
+    padding:5px;
+}
+#principal #mainContent #engineers #formul #boton a:link,
+#principal #mainContent #engineers #formul #boton a:visited {
+    float: right;
+    text-decoration:none;
+    height:27px;
+    background:url(../images/bugen.png) no-repeat left bottom;
+    text-align:center;
+    padding:0 15px 0 15px;
+    line-height:190%;
+    color:#FFF;
+    border:solid thin #3079ED;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    background-image: url(../images/bugen.png);
+}
+#principal #mainContent #engineers #formul #boton a:hover, 
+#principal #mainContent #engineers #formul #boton a:active{
+    background-position:left top;
+}
+/*===== Schedule =====*/
+#principal #mainContent #graphs #schedule{
+    position:absolute;
+    left:0;
+    width:100%;
+    top:30px;
+    border-bottom: solid thin #999;
+    height:285px;
+}
+#principal #mainContent #graphs #schedule #titulos, 
+#principal #mainContent #graphs #schedule #lunes, 
+#principal #mainContent #graphs #schedule #martes,
+#principal #mainContent #graphs #schedule #miercoles, 
+#principal #mainContent #graphs #schedule #jueves, 
+#principal #mainContent #graphs #schedule #viernes, 
+#principal #mainContent #graphs #schedule #sabado, 
+#principal #mainContent #graphs #schedule #domingo{
+    position:absolute;
+    width:100%;
+    left:0;
+    font-size:14px;
+    font-family: HPSimplifiedW04-Regular, Verdana, Geneva, sans-serif;;
+    color:#666;
+}
+/*--------titulos--------------*/
+#principal #mainContent #graphs #schedule #titulos #roleDescription{
+    position:absolute;
+    text-align:left;
+    width: 100px;
+    padding:10px;
+    color:#DD4B39;
+    top:0;
+}
+#principal #mainContent #graphs #schedule #titulos #weekDay{
+    position:absolute;
+    left:0;
+    text-align:center;
+    width: 100px;
+    padding:10px;
+}
+#principal #mainContent #graphs #schedule #titulos #in{
+    position:absolute;
+    left:100px;
+    width: 100px;
+    padding:10px;
+    text-align:center;
+}
+#principal #mainContent #graphs #schedule #titulos #lunchIn{
+    position:absolute;
+    left:220px;
+    top:0;
+    width: 100px;
+    text-align:center;
+    padding:10px;
+}
+#principal #mainContent #graphs #schedule #titulos #lunchOut{
+    position:absolute;
+    left:340px;
+    top:0;
+    width: 100px;
+    text-align:center;
+    padding:10px;
+}
+#principal #mainContent #graphs #schedule #titulos #out{
+    position:absolute;
+    left:460px;
+    top:0;
+    width: 100px;
+    text-align:center;
+    padding:10px;
+}
+/*--------lunes--------------*/
+#principal #mainContent #graphs #schedule #lunes #weekDay{
+    position:absolute;
+    left:0;
+    top:30px;
+    width: 100px;
+    font-size:14px;
+    padding:10px;
+}
+#principal #mainContent #graphs #schedule #lunes #in{
+    position:absolute;
+    left:100px;
+    top:30px;
+    width: 100px;
+
+    padding:10px;
+}
+#principal #mainContent #graphs #schedule #lunes #lunchIn{
+    position:absolute;
+    left:220px;
+    top:30px;
+    width: 100px;
+
+    padding:10px;
+}
+#principal #mainContent #graphs #schedule #lunes #lunchOut{
+    position:absolute;
+    left:340px;
+    top:30px;
+    width: 100px;
+
+    padding:10px;
+}
+#principal #mainContent #graphs #schedule #lunes #out{
+    position:absolute;
+    left:460px;
+    top:30px;
+    width: 100px;
+
+    padding:10px;
+}
+/*--------martes--------------*/
+#principal #mainContent #graphs #schedule #martes #weekDay{
+    position:absolute;
+    left:0;
+    top:60px;
+    width: 100px;
+    font-size:14px;
+    padding:10px;
+}
+#principal #mainContent #graphs #schedule #martes #in{
+    position:absolute;
+    left:100px;
+    top:60px;
+    width: 100px;
+
+    padding:10px;
+}
+#principal #mainContent #graphs #schedule #martes #lunchIn{
+    position:absolute;
+    left:220px;
+    top:60px;
+    width: 100px;
+
+    padding:10px;
+}
+#principal #mainContent #graphs #schedule #martes #lunchOut{
+    position:absolute;
+    left:340px;
+    top:60px;
+    width: 100px;
+
+    padding:10px;
+}
+#principal #mainContent #graphs #schedule #martes #out{
+    position:absolute;
+    left:460px;
+    top:60px;
+    width: 100px;
+
+    padding:10px;
+}
+/*--------miercoles--------------*/
+#principal #mainContent #graphs #schedule #miercoles #weekDay{
+    position:absolute;
+    left:0;
+    top:90px;
+    width: 100px;
+    font-size:14px;
+    padding:10px;
+}
+#principal #mainContent #graphs #schedule #miercoles #in{
+    position:absolute;
+    left:100px;
+    top:90px;
+    width: 100px;
+
+    padding:10px;
+}
+#principal #mainContent #graphs #schedule #miercoles #lunchIn{
+    position:absolute;
+    left:220px;
+    top:90px;
+    width: 100px;
+
+    padding:10px;
+}
+#principal #mainContent #graphs #schedule #miercoles #lunchOut{
+    position:absolute;
+    left:340px;
+    top:90px;
+    width: 100px;
+
+    padding:10px;
+}
+#principal #mainContent #graphs #schedule #miercoles #out{
+    position:absolute;
+    left:460px;
+    top:90px;
+    width: 100px;
+
+    padding:10px;
+}
+/*--------jueves--------------*/
+#principal #mainContent #graphs #schedule #jueves #weekDay{
+    position:absolute;
+    left:0;
+    top:120px;
+    width: 100px;
+    font-size:14px;
+    padding:10px;
+}
+#principal #mainContent #graphs #schedule #jueves #in{
+    position:absolute;
+    left:100px;
+    top:120px;
+    width: 100px;
+
+    padding:10px;
+}
+#principal #mainContent #graphs #schedule #jueves #lunchIn{
+    position:absolute;
+    left:220px;
+    top:120px;
+    width: 100px;
+
+    padding:10px;
+}
+#principal #mainContent #graphs #schedule #jueves #lunchOut{
+    position:absolute;
+    left:340px;
+    top:120px;
+    width: 100px;
+
+    padding:10px;
+}
+#principal #mainContent #graphs #schedule #jueves #out{
+    position:absolute;
+    left:460px;
+    top:120px;
+    width: 100px;
+
+    padding:10px;
+}
+/*--------viernes--------------*/
+#principal #mainContent #graphs #schedule #viernes #weekDay{
+    position:absolute;
+    left:0;
+    top:150px;
+    width: 100px;
+    font-size:14px;
+    padding:10px;
+}
+#principal #mainContent #graphs #schedule #viernes #in{
+    position:absolute;
+    left:100px;
+    top:150px;
+    width: 100px;
+
+    padding:10px;
+}
+#principal #mainContent #graphs #schedule #viernes #lunchIn{
+    position:absolute;
+    left:220px;
+    top:150px;
+    width: 100px;
+
+    padding:10px;
+}
+#principal #mainContent #graphs #schedule #viernes #lunchOut{
+    position:absolute;
+    left:340px;
+    top:150px;
+    width: 100px;
+
+    padding:10px;
+}
+#principal #mainContent #graphs #schedule #viernes #out{
+    position:absolute;
+    left:460px;
+    top:150px;
+    width: 100px;
+
+    padding:10px;
+}
+/*--------sabado--------------*/
+#principal #mainContent #graphs #schedule #sabado #weekDay{
+    position:absolute;
+    left:0;
+    top:180px;
+    width: 100px;
+    font-size:14px;
+    padding:10px;
+}
+#principal #mainContent #graphs #schedule #sabado #in{
+    position:absolute;
+    left:100px;
+    top:180px;
+    width: 100px;
+
+    padding:10px;
+}
+#principal #mainContent #graphs #schedule #sabado #lunchIn{
+    position:absolute;
+    left:220px;
+    top:180px;
+    width: 100px;
+
+    padding:10px;
+}
+#principal #mainContent #graphs #schedule #sabado #lunchOut{
+    position:absolute;
+    left:340px;
+    top:180px;
+    width: 100px;
+
+    padding:10px;
+}
+#principal #mainContent #graphs #schedule #sabado #out{
+    position:absolute;
+    left:460px;
+    top:180px;
+    width: 100px;
+
+    padding:10px;
+}
+/*--------domingo--------------*/
+#principal #mainContent #graphs #schedule #domingo #weekDay{
+    position:absolute;
+    left:0;
+    top:210px;
+    width: 100px;
+    font-size:14px;
+    padding:10px;
+}
+#principal #mainContent #graphs #schedule #domingo #in{
+    position:absolute;
+    left:100px;
+    top:210px;
+    width: 100px;
+
+    padding:10px;
+}
+#principal #mainContent #graphs #schedule #domingo #lunchIn{
+    position:absolute;
+    left:220px;
+    top:210px;
+    width: 100px;
+    padding:10px;
+}
+#principal #mainContent #graphs #schedule #domingo #lunchOut{
+    position:absolute;
+    left:340px;
+    top:210px;
+    width: 100px;
+
+    padding:10px;
+}
+#principal #mainContent #graphs #schedule #domingo #out{
+    position:absolute;
+    left:460px;
+    top:210px;
+    width: 100px;
+    padding:10px;
+}
+#principal #mainContent #graphs #schedule #schedSaveButon{
+    position:absolute;
+    width:100%;
+    font-size:14px;
+    top: 245px;
+    padding:0px;
+    text-align:right;
+}
+#principal #mainContent #graphs #schedule #schedSaveButon a:link,
+#principal #mainContent #graphs #schedule #schedSaveButon a:visited {
+    position:absolute;
+    text-decoration:none;
+    left: 80%;
+    width: 45px;
+    height: 27px;
+    background: url(../images/bugen.png) no-repeat left bottom;
+    text-align: center;
+    padding: 0 15px 0 15px;
+    margin-right: 5px;
+    line-height: 190%;
+    color: #FFF;
+    border: solid thin #3079ED;
+    border-radius: 5px;
+    -moz-border-radius: 5px;	
+}
+#principal #mainContent #graphs #schedule #schedSaveButon a:hover,
+#principal #mainContent #graphs #schedule #schedSaveButon a:active {
+    background-position: left top;
+}
+#principal #mainContent #graphs #exception{
+    position:absolute;
+    top:315px;
+    width:100%;
+    font-size:13px;
+}
+#engineerName {
+    float: right;
+    color:#999;
+    margin-top: 8px;
+    margin-right: 0px;
+}
+#engineerNameList{
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+#principal #mainContent #graphs #exception #excTitle{
+    float: left;
+}
+#principal #mainContent #graphs #exception #tipo2{
+    clear: left;
+    color:#999;
+    margin-left: 5px;
+    float: left;
+}
+#principal #mainContent #graphs #exception #schTypeList{
+    float: left;
+     color:#999;
+}
+#principal #mainContent #graphs #exception #dateFrom{
+    float: left;
+     color:#999;
+     margin-left: 10px;
+}
+#principal #mainContent #graphs #exception #dateTo{
+    float: left;
+     color:#999;
+     margin-left: 5px;
+}
+#principal #mainContent #graphs #exception #timeFrom{
+    clear: left;
+    float: left;
+     color:#999;
+     margin-left: 5px;
+}
+#principal #mainContent #graphs #exception #timeTo{
+    float: left;
+     color:#999;
+     margin-left: 5px;
+}
+#principal #mainContent #graphs #exception #timeAll{
+    float: left;
+     color:#999;
+     margin-left: 10px;
+}
+#principal #mainContent #graphs #exception #createExc{
+    float: right;
+    font-size:13px;    
+}
+#principal #mainContent #graphs #exception #createExc a:link,
+#principal #mainContent #graphs #exception #createExc a:visited {
+    position:absolute;
+    text-decoration: none;
+    left: 80%;
+    width: 45px;
+    height: 27px;
+    background: url(../images/bugen.png) no-repeat left bottom;
+    text-align: center;
+    padding: 0 15px 0 15px;
+    margin-right: 5px;
+    line-height: 190%;
+    color: #FFF;
+    border: solid thin #3079ED;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+#principal #mainContent #graphs #exception #createExc a:hover,
+#principal #mainContent #graphs #exception #createExc a:active {
+    background-position: left top;
+}
+#principal #mainContent #graphs #exception #createExc1{
+    position:absolute;
+    top:80px;
+    left:440px;
+    width:120px;
+    /*font: Verdana, Geneva, sans-serif;*/
+    color:#999;
+    padding:10px 0;
+}
+#principal #mainContent #graphs #menuGraph{
+    position:absolute;
+    right:20px;
+    top:0;
+}
+#principal #mainContent #graphs #menuGraph ul{
+}
+
+#principal #mainContent #graphs #menuGraph {
+}
+#principal #mainContent #graphs #menuGraph #opt1, 
+#principal #mainContent #graphs #menuGraph #opt2, 
+#principal #mainContent #graphs #menuGraph #opt3, 
+#principal #mainContent #graphs #menuGraph #opt4{
+    list-style:none;
+    float:left;
+    font-family: HPSimplifiedW04-Regular, Verdana, Geneva, sans-serif;;
+    font-size:12px;
+    display:block;
+    color:#333;
+    padding:0 15px 0 15px;
+    margin-right: 5px;
+    line-height:200%;
+    background:url(../images/button.png) no-repeat left bottom;
+    border:none;
+    border:solid thin #CCC;
+    border-radius:0 0 5px 5px;
+    -moz-border-radius:5px;
+}
+#principal #mainContent #graphs #menuGraph li a:hover, 
+#principal #mainContent #graphs #menuGraph li a:active{
+    color:#FFF;	
+    background-position: left top;
+    border:solid thin #999;
+    border-radius:0 0 5px 5px;
+    -moz-border-radius:5px;
+}

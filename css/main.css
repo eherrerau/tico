@@ -1,0 +1,1395 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ===== Global styles ===== */
+
+body {
+	font-family:Verdana, Geneva, sans-serif;
+	background-color:#FFF;
+	margin:0;
+	padding:0;
+}
+
+p, h1, h2, h3, h4, li {
+	margin: 1ex 1em;
+}
+
+h1{
+	font-size:18px;
+	color:#FFF;
+}
+h2{
+	font-size:14px;
+	color:#333;
+}
+h3{
+	font-size:10px;
+}
+
+
+h4 {
+	font-size:12px;
+	color:#999;
+}
+h5{
+	font-size:14px;
+	color: #FF007F;
+}
+
+
+div#principal{
+	width: 100%;
+	height:95%;
+	margin: 0 auto;
+}
+
+/* ===== header ===== */
+
+#principal #header{
+	position:absolute;
+	left:0;
+	top:0;
+	height:50px;
+	width:100%;
+	/*float:left;*/
+	/*border-bottom: 1px solid #999;
+	background:url(../images/headbg.png) repeat;*/
+	background:#3D3D3D;
+	
+}
+#principal #header #titulo{
+	position:absolute;
+	width:50%;
+	left:0;
+	bottom:0;
+}
+#principal #header #info{
+	position:absolute;
+	width:50%;
+	left: 50%;
+	bottom:0;
+	text-align:right;
+}
+/* ===== menus ===== */
+
+div#menus{
+	position:absolute;
+	top:50px;
+	left:0;
+	height:146px;
+	width:100%;
+	/*border-bottom: 1px solid #999;	*/
+}
+
+#menus #leftMenu{
+	position:absolute;
+	top:2px;
+	left:0;
+	width:50px;
+	height:146px;
+}
+#menus #leftMenu #leftMenu1 {
+	position:absolute;
+	top:0;
+	left:0;
+	width:40px;
+	height:35px;
+}	
+/* -------------- Add Button -------------- */
+#menus #leftMenu #leftMenu1 a:link, 
+#menus #leftMenu #leftMenu1 a:visited {
+	position:absolute;
+	text-decoration:none;
+	padding:0;
+	top:0;
+	left:0;
+	width:40px;
+	height:35px;
+	background:url(../images/addbutton.png) no-repeat left bottom;
+}
+#menus #leftMenu #leftMenu1 a:hover, 
+#menus #leftMenu #leftMenu1 a:active{
+	background-position:left top;
+}
+/* -------------- delete Button -------------- */
+#menus #leftMenu #leftMenu2 a:link, 
+#menus #leftMenu #leftMenu2 a:visited {
+	position:absolute;
+	text-decoration:none;
+	padding:0;
+	top:36px;
+	left:0;
+	width:40px;
+	height:35px;
+	background:url(../images/delbutton.png) no-repeat left bottom;
+}
+#menus #leftMenu #leftMenu2 a:hover, 
+#menus #leftMenu #leftMenu2 a:active{
+	background-position:left top;
+}
+/* -------------- Modify Button -------------- */
+#menus #leftMenu #leftMenu3 a:link, 
+#menus #leftMenu #leftMenu3 a:visited {
+	position:absolute;
+	text-decoration:none;
+	padding:0;
+	top:72px;
+	left:0;
+	width:40px;
+	height:35px;
+	background:url(../images/modbutton.png) no-repeat left bottom;
+}
+#menus #leftMenu #leftMenu3 a:hover, 
+#menus #leftMenu #leftMenu3 a:active{
+	background-position:left top;
+}
+/* -------------- Misrouted Button -------------- */
+#menus #leftMenu #leftMenu4 a:link, 
+#menus #leftMenu #leftMenu4 a:visited {
+	position:absolute;
+	text-decoration:none;
+	padding:0;
+	top:108px;
+	left:0;
+	width:40px;
+	height:35px;
+	background:url(../images/misbutton.png) no-repeat left bottom;
+}
+#menus #leftMenu #leftMenu4 a:hover, 
+#menus #leftMenu #leftMenu4 a:active{
+	position:absolute;
+	background-position:left top;
+}
+
+
+
+	
+/*----- Formulario -----*/
+#menus #formulario{
+	position:absolute;
+	left:40px;
+	width:495px;
+	height:142px;
+	border:solid thin #CCC;
+	border-radius:15px;
+	-moz-border-radius:15px;
+	background:#F6F6F6;
+	top: 2px;
+	padding:0;
+}
+/*----- rightTop -----*/
+#menus #rightTop{
+	position:absolute;
+	right:0;
+	width:50%;
+	height:142px;
+	/*border:solid #000;*/
+}
+/*----- formulario -----*/
+
+
+#menus #formulario #addForm1{
+	position:absolute;
+	left:0;
+	top:0;
+	width:20%;
+	height:20px;
+}
+
+#menus #formulario #addForm1{
+	position:absolute;
+	left:0;
+	top:20px;
+	width:20%;
+	height:30px;
+	padding:1%;
+}
+#menus #formulario #addForm2{
+	position:absolute;
+	left:22%;
+	top:20px;
+	width:45%;
+	height:30px;
+	padding:1%;
+}
+#menus #formulario #addForm3{
+	position:absolute;
+	left:0;
+	top:50px;
+	width:20%;
+	height:30px;
+	padding:1%;
+}
+#menus #formulario #assignCallback{
+	position:absolute;
+	left:160px;
+	top:50px;
+	width:50%;
+	height:30px;
+	padding:1%;
+}
+#menus #formulario #callbackselect{
+	position:absolute;
+	left:270px;
+	top:50px;
+	width:50%;
+	height:30px;
+	padding:1%;
+}
+#menus #formulario #addForm4{
+	position:absolute;
+	left:22%;
+	top:50px;
+	width:45%;
+	height:30px;
+	padding:1%;
+}
+#menus #formulario #addForm44{
+	position:absolute;
+	left:22%;
+	top:50px;
+	width:45%;
+	height:30px;
+	padding:1%;
+}
+#menus #formulario #addForm62{
+	position:absolute;
+	left:22%;
+	top:80px;
+	width:45%;
+	height:30px;
+	padding:1%;
+}
+#menus #formulario #addForm5{
+	position:absolute;
+	left:0;
+	top:80px;
+	width:20%;
+	height:30px;
+	padding:1%;
+}
+#menus #formulario #addForm61{
+	position:absolute;
+	left:22%;
+	top:80px;
+	width:450px;
+	height:30px;
+	padding:1%;
+}
+#menus #formulario #addForm7{
+	position:absolute;
+	left:35%;
+	top:105px;
+	width:20%;
+	height:30px;
+	padding:1%;
+}
+#menus #formulario #addForm12{
+	position:absolute;
+	left:0;
+	top:105px;
+	width:20%;
+	height:30px;
+	padding:1%;
+}
+#menus #formulario #addForm8{
+	position:absolute;
+	left:52%;
+	top:114px;
+	width:45%;
+	height:30px;
+	padding:1%;
+}
+#menus #formulario #addForm13{
+	position:absolute;
+	left:22%;
+	top:114px;
+	width:45%;
+	height:30px;
+	padding:1%;
+}
+#menus #formulario #addForm9{
+	position:absolute;
+	left:70%;
+	top:10px;
+	width:20%;
+	height:30px;
+	padding:1%;
+}
+#menus #formulario #addForm10{
+	position:absolute;
+	left:70%;
+	top:50px;
+	width:25%;
+	height:30px;
+	padding:1%;
+}
+#menus #formulario #addForm11{
+	position:absolute;
+	left:80%;
+	bottom:10px;
+	width:10%;
+	height:30px;
+	padding:0;
+	font-size:14px;
+	
+}
+#menus #formulario #addFormSearch{
+	position:absolute;
+	left:50%;
+	top:25px;
+	width:9%;
+	height:30px;
+	padding:0;
+	font-size:12px;
+	
+	
+}
+/* -------------- Search Button -------------- */
+#menus #formulario #addFormSearch a:link, 
+#menus #formulario #addFormSearch a:visited {
+	position:absolute;
+	text-decoration:none;
+	padding:0;
+	top:0px;
+	left:0;
+	width:30px;
+	height:18px;
+	background:url(../images/bugen.png) no-repeat left bottom;
+	text-align:center;
+	padding:2px 15px 0 15px;
+	margin-right: 0px;
+	line-height:190%;
+	color:#FFF;
+	border:solid thin #3079ED;
+	border-radius:5px;
+	-moz-border-radius:5px;
+
+}
+#menus #formulario #addFormSearch a:hover, 
+#menus #formulario #addFormSearch a:active{
+	background-position:left top;
+	text-align: center;
+}
+/* -------------- Add Button -------------- */
+#menus #formulario #addForm11 a:link, 
+#menus #formulario #addForm11 a:visited {
+	position:absolute;
+	text-decoration:none;
+	padding:0;
+	top:5px;
+	left:0;
+	width:45px;
+	height:27px;
+	background:url(../images/bugen.png) no-repeat left bottom;
+	text-align:center;
+	padding:0 15px 0 15px;
+	margin-right: 5px;
+	line-height:190%;
+	color:#FFF;
+	border:solid thin #3079ED;
+	border-radius:5px;
+	-moz-border-radius:5px;
+}
+#menus #formulario #addForm11 a:hover, 
+#menus #formulario #addForm11 a:active{
+	background-position:left top;
+}
+
+/*----- mainMenu -----*/
+#menus #rightTop #mainMenu{
+	position:absolute;
+	right:0;
+	top:0;
+	height:73px;
+	width: 100%;
+	
+}
+
+#mainMenu ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+#mainMenu li{
+	float:right;
+	margin:0;
+	padding:0;
+	
+}
+
+#mainMenu li a:link, 
+#mainMenu li a:visited{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	display:block;
+	color:#333;
+	padding:0 15px 0 15px;
+	margin-right: 5px;
+	line-height:200%;
+	background:url(../images/button.png) no-repeat left bottom;
+	border:none;
+	border:solid thin #CCC;
+	border-radius:0 0 5px 5px;
+	-moz-border-radius:5px;
+	
+}
+#mainMenu li a:hover, 
+#mainMenu li a:active{
+	color:#FFF;
+	
+	background-position: left top;
+	border:solid thin #999;
+	border-radius:0 0 5px 5px;
+	-moz-border-radius:5px;
+}
+#mainMenu li a.current {
+	margin-bottom:5px;
+	height:27px;
+	background:url(../images/current.png) no-repeat;
+	color:#FFF;
+	line-height:200%;
+	font-weight: bold;
+	border:solid thin #999;
+	border-radius:0 0 5px 5px;
+	-moz-border-radius:5px;
+	
+}
+/*----- News -----*/
+#principal #menus #rightTop #news{
+	position:absolute;
+	font-family:Verdana, Geneva, sans-serif;
+	top:73px;
+	left:0;
+	width:100%;
+	height:73px;
+}
+#principal #menus #rightTop #news #messages{
+	position:absolute;
+	padding:0;
+	margin:0;
+	width:100%;
+	height:20px;
+	color:#DD4B39;
+	font-size:14px;
+}
+
+#principal #menus #rightTop #news #titulo{
+	position:absolute;
+	color:#000;
+	bottom:0;
+	width:49%;
+	left:0;
+	text-align:right;
+	margin:0;
+	padding:0;
+	height:20px;
+}
+#principal #menus #rightTop #news #valor{
+	position:absolute;
+	color:#3079ED;
+	bottom:0;
+	left:50%;
+	width:50%;
+	text-align:left;
+	margin:0;
+	padding:0;
+	height:20px;
+}
+/* ===== mainContent ===== */
+#principal #mainContent{
+	position:absolute;
+	width:100%;
+	top:205px;
+	overflow:auto;
+}
+#principal #mainContent #engineers{
+	position:relative;
+	left:5px;
+	width:35%;
+	height:99%;
+}
+
+#detail{
+	visibility:hidden;
+	position:absolute;
+	background-color: #CCC;
+	border: 1px solid #666;
+	z-index: 5;
+	width:200px;
+	/*height:100%;*/
+	overflow:hidden;
+	font-size: 0.6em;
+	padding: 10px;
+	top:0;
+	left:0;
+	
+}
+
+#detail #divcontainer{
+	position:relative;
+	padding:8px;
+	}
+	
+#detail #divcontainer #assigndTime{
+	position:absolute;
+	left:0px;
+	width:50px;
+	height:100px;
+}	
+#detail #divcontainer #kaseNum{
+	position:absolute;
+	left:50px;
+	width:100px;
+	height:100px;
+}
+#detail #divcontainer #circle{
+	position:absolute;
+	left:150px;
+	width:50px;
+}
+
+#principal #mainContent #engineers #titulo0{
+position:absolute;
+	left:5px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:10px;
+	text-align:left;
+	width:400px;
+	height:14px;
+	color:#0066FF;	
+}
+
+#principal #mainContent #engineers #titulo1, 
+#principal #mainContent #engineers #titulo2, 
+#principal #mainContent #engineers #titulo3, 
+#principal #mainContent #engineers #titulo4{
+	position:relative;
+	right:5px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	text-align:right;
+	width:520px;
+	height:14px;
+
+
+}
+#principal #mainContent #engineers #box1, 
+#principal #mainContent #engineers #box2, 
+#principal #mainContent #engineers #box3, 
+#principal #mainContent #engineers #box4{
+	position:relative;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:10px;
+	width:525px;
+
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+#principal #mainContent #engineers #titulo1{
+	
+	color:#060;
+	padding:5px 0 0 0;
+}
+#principal #mainContent #engineers #box1{
+	border:solid thin #060;
+	color:#060;
+	/*float:left;*/
+	padding:5px;
+	background:#FCFCFC;
+}
+#principal #mainContent #engineers #box1 #engineerT, 
+#principal #mainContent #engineers #box2 #engineerT, 
+#principal #mainContent #engineers #box3 #engineerT, 
+#principal #mainContent #engineers #box4 #engineerT{
+	position:relative;
+	height:15px;
+	width:520px;
+}
+#principal #mainContent #engineers #box1 #engineer, 
+#principal #mainContent #engineers #box2 #engineer, 
+#principal #mainContent #engineers #box3 #engineer, 
+#principal #mainContent #engineers #box4 #engineer{
+	position:relative;
+	height:15px;
+	width:520px;
+}
+#principal #mainContent #engineers #box1 #engineerT #person, 
+#principal #mainContent #engineers #box2 #engineerT #person, 
+#principal #mainContent #engineers #box3 #engineerT #person, 
+#principal #mainContent #engineers #box4 #engineerT #person{
+	position:absolute;
+	text-decoration:none;
+	width:195px;
+	left:0;
+	color:#666;
+}
+#principal #mainContent #engineers #box1 #engineerT #person a:link, 
+#principal #mainContent #engineers #box2 #engineerT #person a:link, 
+#principal #mainContent #engineers #box3 #engineerT #person a:link, 
+#principal #mainContent #engineers #box4 #engineerT #person a:link{
+
+	text-decoration:none;
+
+}
+#principal #mainContent #engineers #box1 #engineerT #person a:visited, 
+#principal #mainContent #engineers #box2 #engineerT #person a:visited, 
+#principal #mainContent #engineers #box3 #engineerT #person a:visited, 
+#principal #mainContent #engineers #box4 #engineerT #person a:visited{
+
+	text-decoration:none;
+
+}
+#principal #mainContent #engineers #box1 #engineerT #person a:hover, 
+#principal #mainContent #engineers #box2 #engineerT #person a:hover, 
+#principal #mainContent #engineers #box3 #engineerT #person a:hover, 
+#principal #mainContent #engineers #box4 #engineerT #person a:hover{
+
+	text-decoration:none;
+
+}
+#principal #mainContent #engineers #box1 #engineerT #premier, 
+#principal #mainContent #engineers #box2 #engineerT #premier, 
+#principal #mainContent #engineers #box3 #engineerT #premier, 
+#principal #mainContent #engineers #box4 #engineerT #premier{
+	position:absolute;
+	width:5px;
+	left:195px;
+	padding:5px;
+	color:#666;
+
+}
+#principal #mainContent #engineers #box1 #engineerT #LW, 
+#principal #mainContent #engineers #box2 #engineerT #LW, 
+#principal #mainContent #engineers #box3 #engineerT #LW, 
+#principal #mainContent #engineers #box4 #engineerT #LW{
+	position:absolute;
+	width:15px;
+	left:215px;
+	padding:5px;
+	color:#999;
+	text-align:center;
+	font-size:9px;
+}
+#principal #mainContent #engineers #box1 #engineerT #Td, 
+#principal #mainContent #engineers #box2 #engineerT #Td, 
+#principal #mainContent #engineers #box3 #engineerT #Td, 
+#principal #mainContent #engineers #box4 #engineerT #Td{
+	position:absolute;
+	width:15px;
+	left:235px;
+	padding:5px;
+	color:#999;
+	text-align:center;
+	font-size:9px;
+}
+#principal #mainContent #engineers #box1 #engineerT #TW, 
+#principal #mainContent #engineers #box2 #engineerT #TW, 
+#principal #mainContent #engineers #box3 #engineerT #TW, 
+#principal #mainContent #engineers #box4 #engineerT #TW{
+	position:absolute;
+	width:15px;
+	left:255px;
+	padding:5px;
+	color:#999;
+	text-align:center;
+	font-size:9px;
+}
+#principal #mainContent #engineers #box1 #engineerT #Av, 
+#principal #mainContent #engineers #box2 #engineerT #Av, 
+#principal #mainContent #engineers #box3 #engineerT #Av, 
+#principal #mainContent #engineers #box4 #engineerT #Av{
+	position:absolute;
+	width:15px;
+	left:275px;
+	padding:5px;
+	color:#999;
+	text-align:center;
+	font-size:9px;
+}
+#principal #mainContent #engineers #box1 #engineerT #in, 
+#principal #mainContent #engineers #box2 #engineerT #in, 
+#principal #mainContent #engineers #box3 #engineerT #in, 
+#principal #mainContent #engineers #box4 #engineerT #in{
+	position:absolute;
+	width:40px;
+	left:255px;
+	padding:5px;
+	color:#666;
+	text-align:center;
+}
+#principal #mainContent #engineers #box1 #engineerT #lIn, 
+#principal #mainContent #engineers #box2 #engineerT #lIn, 
+#principal #mainContent #engineers #box3 #engineerT #lIn, 
+#principal #mainContent #engineers #box4 #engineerT #lIn{
+	position:absolute;
+	width:80px;
+	left:295px;
+	padding:5px;
+	color:#999;
+	text-align:center;
+}
+#principal #mainContent #engineers #box1 #engineerT #out, 
+#principal #mainContent #engineers #box2 #engineerT #out, 
+#principal #mainContent #engineers #box3 #engineerT #out, 
+#principal #mainContent #engineers #box4 #engineerT #out{
+	position:absolute;
+	width:40px;
+	left:385px;
+	padding:5px;
+	color:#666;
+	text-align:center;
+}
+#principal #mainContent #engineers #box1 #engineerT #cases, 
+#principal #mainContent #engineers #box2 #engineerT #cases, 
+#principal #mainContent #engineers #box3 #engineerT #cases, 
+#principal #mainContent #engineers #box4 #engineerT #cases{
+	position:absolute;
+	width:80px;
+	left:415px;
+	padding:5px;
+	color:#666;
+	text-align:center;
+}
+#principal #mainContent #engineers #box1 #engineer #person, 
+#principal #mainContent #engineers #box2 #engineer #person, 
+#principal #mainContent #engineers #box3 #engineer #person, 
+#principal #mainContent #engineers #box4 #engineer #person{
+	position:absolute;
+	width:195px;
+	left:0;
+	padding:5px;
+}
+#principal #mainContent #engineers #box1 #engineer #premier, 
+#principal #mainContent #engineers #box2 #engineer #premier, 
+#principal #mainContent #engineers #box3 #engineer #premier, 
+#principal #mainContent #engineers #box4 #engineer #premier{
+	position:absolute;
+	width:5px;
+	left:195px;
+	padding:5px;
+
+}
+#principal #mainContent #engineers #box1 #engineer #LW, 
+#principal #mainContent #engineers #box2 #engineer #LW, 
+#principal #mainContent #engineers #box3 #engineer #LW, 
+#principal #mainContent #engineers #box4 #engineer #LW{
+	position:absolute;
+	width:15px;
+	left:215px;
+	padding:5px;
+	color:#999;
+	text-align:center;
+}
+#principal #mainContent #engineers #box1 #engineer #Td, 
+#principal #mainContent #engineers #box2 #engineer #Td, 
+#principal #mainContent #engineers #box3 #engineer #Td, 
+#principal #mainContent #engineers #box4 #engineer #Td{
+	position:absolute;
+	width:15px;
+	left:235px;
+	padding:5px;
+	color:#999;
+	text-align:center;
+}
+#principal #mainContent #engineers #box1 #engineer #TW, 
+#principal #mainContent #engineers #box2 #engineer #TW, 
+#principal #mainContent #engineers #box3 #engineer #TW, 
+#principal #mainContent #engineers #box4 #engineer #TW{
+	position:absolute;
+	width:15px;
+	left:255px;
+	padding:5px;
+	color:#999;
+	text-align:center;
+
+}
+#principal #mainContent #engineers #box1 #engineer #Av, 
+#principal #mainContent #engineers #box2 #engineer #Av, 
+#principal #mainContent #engineers #box3 #engineer #Av, 
+#principal #mainContent #engineers #box4 #engineer #Av{
+	position:absolute;
+	width:15px;
+	left:275px;
+	padding:5px;
+	color:#999;
+	text-align:center;
+
+}
+#principal #mainContent #engineers #box1 #engineer #in, 
+#principal #mainContent #engineers #box2 #engineer #in,
+#principal #mainContent #engineers #box3 #engineer #in, 
+#principal #mainContent #engineers #box4 #engineer #in{
+	position:absolute;
+	width:40px;
+	left:255px;
+	padding:5px;
+	color:#333;
+	text-align:center;
+
+}
+#principal #mainContent #engineers #box1 #engineer #lIn, 
+#principal #mainContent #engineers #box2 #engineer #lIn,
+#principal #mainContent #engineers #box3 #engineer #lIn, 
+#principal #mainContent #engineers #box4 #engineer #lIn{
+	position:absolute;
+	width:80px;
+	left:300px;
+	padding:5px;
+	color:#999;
+	text-align:center;
+
+}
+#principal #mainContent #engineers #box1 #engineer #out, 
+#principal #mainContent #engineers #box2 #engineer #out, 
+#principal #mainContent #engineers #box3 #engineer #out, 
+#principal #mainContent #engineers #box4 #engineer #out{
+	position:absolute;
+	width:40px;
+	left:385px;
+	padding:5px;
+	color:#333;
+	text-align:center;
+
+}
+#principal #mainContent #engineers #box1 #engineer #cases, 
+#principal #mainContent #engineers #box2 #engineer #cases, 
+#principal #mainContent #engineers #box3 #engineer #cases, 
+#principal #mainContent #engineers #box4 #engineer #cases{
+	position:absolute;
+	width:110px;
+	left:430px;
+	padding:5px;
+	color:#0099FF;
+	text-align:left;
+
+}
+
+#principal #mainContent #engineers #titulo2{
+	color:#3079ED;
+	padding:5px 0 0 0;
+	
+}
+#principal #mainContent #engineers #box2{
+	color:#3079ED;
+	border:solid thin #3079ED;
+	padding:5px;
+	background:#FCFCFC;
+}
+#principal #mainContent #engineers #titulo3{
+	color:#666;
+	padding:5px 0 0 0;
+}
+#principal #mainContent #engineers #box3{
+	color:#666;
+	border:solid thin #666;
+	padding:5px;
+	background:#FCFCFC;
+}
+#principal #mainContent #engineers #titulo4{
+	color:#DD4B39;
+	padding:5px 0 0 0;
+}
+#principal #mainContent #engineers #box4{
+	color:#DD4B39;
+	border:solid thin #DD4B39;
+	padding:5px;
+	background:#FCFCFC;
+}
+
+#principal #mainContent #engineers #box1 #total_eng, #principal #mainContent #engineers #box2 #total_eng, #principal #mainContent #engineers #box3 #total_eng, #principal #mainContent #engineers #box4 #total_eng{
+	position:absolute;
+	top:-14px;
+	left:520px;
+	font-size:11px;
+}
+/* ----- graphs section ----- */
+#principal #mainContent #graphs{
+	position:absolute;
+	right:5px;
+	width:55%;
+	height:97%;
+	text-align:center;
+	top:14px;
+	border:solid thin #CCC;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+
+}
+#principal #mainContent #graphs #menuGraph{
+	position:absolute;
+	right:20px;
+	top:0;
+}
+
+#principal #mainContent #graphs #menuGraph ul{
+	
+
+}
+
+#principal #mainContent #graphs #menuGraph {
+	
+
+}
+
+#principal #mainContent #graphs #menuGraph #opt1, 
+#principal #mainContent #graphs #menuGraph #opt2, 
+#principal #mainContent #graphs #menuGraph #opt3, 
+#principal #mainContent #graphs #menuGraph #opt4,
+#principal #mainContent #graphs #menuGraph #opt5,
+#principal #mainContent #graphs #menuGraph #opt6,
+#principal #mainContent #graphs #menuGraph #opt7{
+	list-style:none;
+	float:left;
+font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	display:block;
+	color:#333;
+	padding:0 5px 0 5px;
+	margin-right: 4px;
+	line-height:200%;
+	background:url(../images/button.png) no-repeat left bottom;
+
+	border:none;
+	border:solid thin #CCC;
+	border-radius:0 0 5px 5px;
+	-moz-border-radius:5px;
+	
+}
+/*
+#principal #mainContent #graphs #menuGraph li a:link, 
+#principal #mainContent #graphs #menuGraph li a:visited{
+	font-family:Verdana, Geneva, sans-serif;
+	text-decoration:none;
+	font-size:12px;
+	display:block;
+	color:#333;
+	padding:0 15px 0 15px;
+	margin-right: 5px;
+	line-height:200%;
+	background:url(../images/button.png) no-repeat left bottom;
+	border:none;
+	border:solid thin #CCC;
+	border-radius:0 0 5px 5px;
+	-moz-border-radius:5px;
+	
+}
+
+#principal #mainContent #graphs #menuGraph li a:hover, 
+#principal #mainContent #graphs #menuGraph li a:active{
+	color:#FFF;
+	
+	background-position: left top;
+	border:solid thin #999;
+	border-radius:0 0 5px 5px;
+	-moz-border-radius:5px;
+}
+
+*/
+#principal #mainContent #graphs #grafico{
+	position:absolute;
+	top:40px;
+	left:0;
+	width:100%;	
+	height:90%;
+}
+
+
+#principal #mainContent #graphs #grafico #main{
+	overflow:auto;
+	position:absolute;
+	width: 100%;
+	height:100%;
+	margin: 0 auto;
+	left:0;
+	border:solid thin #CCC;
+	background:#F7F7F7;
+	font-size:11px;
+}
+
+#principal #mainContent #graphs #grafico #main #avgBar{
+	position:absolute;
+	left:195px;
+	top:0;
+	height:100%;
+	border-right:#DD4B39 solid;
+	
+}
+
+#principal #mainContent #graphs #grafico #main #row{
+	position:relative;
+	left:0;
+	width:100%;
+	height:14px;
+	margin:2px 5px;
+	
+}
+
+#principal #mainContent #graphs #grafico #main #row #engineer{
+	position:absolute;
+	left:0;
+	width:230px;
+	text-align:left;
+}
+#principal #mainContent #graphs #grafico #main #row #graphline{
+	position:absolute;
+	left:182px;
+	width:350px;
+	background:#060;
+	border:solid thin #FFF;
+	height:14px;
+	border-radius:0 8px 8px 0;
+	-moz-border-radius:5px;
+	background-image:url(../images/separator.png)
+}
+#principal #mainContent #graphs #grafico #main #row #tamano{
+	position:absolute;
+	left:120px;
+	width:60px;
+	right:0;
+	text-align:right;
+}
+
+#principal #mainContent #graphs #grafico #total_casos{
+	position:relative;
+top:-25px;
+left:100px;
+}
+
+#principal #mainContent #graphs #grafico #main #rowHistory{
+	position:relative;
+	left:0;
+	width:100%;
+	padding:0;
+	margin:0;
+	font-size:11px;
+}
+#principal #mainContent #graphs #grafico #main #rowHistory #dateUpdate{
+	position:absolute;
+	left:0;
+	margin:0;
+	padding:5px 0;
+	width:16%;
+	border:solid thin #CCC;
+	text-align:center;
+	height:12px;
+	
+}
+#principal #mainContent #graphs #grafico #main #rowHistory #severityHistory{
+	position:absolute;
+	left:16%;
+	margin:0;
+	padding:5px 0;
+	width:4%;
+	border:solid thin #CCC;
+	text-align:center;
+		height:12px;
+}
+
+#principal #mainContent #graphs #grafico #main #rowHistory #fromEngineerHistory{
+	position:absolute;
+	left:20%;
+	margin:0;
+	padding:5px 0;
+	width:20%;
+	border:solid thin #CCC;
+	text-align:center;
+		height:12px;
+}
+#principal #mainContent #graphs #grafico #main #rowHistory #toEngineerHistory{
+	position:absolute;
+	left:40%;
+	margin:0;
+	padding:5px 0;
+	width:20%;
+	border:solid thin #CCC;
+	text-align:center;
+		height:12px;
+}
+#principal #mainContent #graphs #grafico #main #rowHistory #motiveHistory{
+	position:absolute;
+	left:60%;
+	margin:0;
+	padding:5px 0;
+	width:20%;
+	border:solid thin #CCC;
+	text-align:center;
+	height:12px;
+}
+#principal #mainContent #graphs #grafico #main #rowHistory #notaHistory{
+	position:absolute;
+	left:80%;
+	margin:0;
+	padding:5px 0;
+	width:20%;
+	border:solid thin #CCC;
+	text-align:center;
+		height:12px;
+
+}
+
+#principal #mainContent #graphs #grafico #main #rowHistory #vacio{
+	position:relative;
+	left:80%;
+	margin:0;
+	padding:5px 0;
+	width:20%;
+	visibility:hidden;
+
+	height:12px;	
+
+}
+
+#principal #mainContent #graphs #grafico #main #rowHistory #caseNumer2{
+	position:absolute;
+	left:0;
+	margin:0;
+	padding:5px 0;
+	width:16%;
+	border:solid thin #CCC;
+	text-align:left;
+	height:12px;
+	
+}
+	
+#principal #mainContent #graphs #grafico #main #rowHistory #dateUpdate2{
+	position:absolute;
+	left:16%;
+	margin:0;
+	padding:5px 0;
+	width:16%;
+	border:solid thin #CCC;
+	text-align:center;
+	height:12px;
+	
+}
+#principal #mainContent #graphs #grafico #main #rowHistory #severityHistory2{
+	position:absolute;
+	left:32%;
+	margin:0;
+	padding:5px 0;
+	width:6%;
+	border:solid thin #CCC;
+	text-align:center;
+		height:12px;
+}
+
+#principal #mainContent #graphs #grafico #main #rowHistory #fromEngineerHistory2{
+	position:absolute;
+	left:38%;
+	margin:0;
+	padding:5px 0;
+	width:20%;
+	border:solid thin #CCC;
+	text-align:center;
+		height:12px;
+}
+#principal #mainContent #graphs #grafico #main #rowHistory #toEngineerHistory2{
+	position:absolute;
+	left:58%;
+	margin:0;
+	padding:5px 0;
+	width:22%;
+	border:solid thin #CCC;
+	text-align:center;
+		height:12px;
+}
+
+#principal #mainContent #graphs #grafico #main #rowHistory #notaHistory2{
+	position:absolute;
+	left:80%;
+	margin:0;
+	padding:5px 0;
+	width:20%;
+	border:solid thin #CCC;
+	text-align:center;
+		height:12px;
+
+}
+
+#principal #mainContent #graphs #grafico #main #rowHistory #vacio2{
+	position:relative;
+	left:80%;
+	margin:0;
+	padding:5px 0;
+	width:20%;
+	visibility:hidden;
+
+	height:12px;	
+
+}
+
+/*****************Schedule*********************/
+#principal #mainContent #graphs #grafico #main #rowHistory2{
+	position:relative;
+	left:0;
+	width:100%;
+	padding:0;
+	margin:0;
+	font-size:11px;
+	border:solid thin #CCC;
+	background-color:#99FFFF;
+	height:20px;
+		
+	
+}
+#principal #mainContent #graphs #grafico #main #rowHistory3{
+	position:relative;
+	left:0;
+	width:100%;
+	padding:0px 0px 10px 0px;
+	margin:0;
+	font-size:11px;
+	border:solid thin #CCC;
+	background-color:#99FFFF;
+	background-color:#FFF;
+	overflow: scroll;
+	height:30%;
+	
+	
+
+
+	
+}
+#principal #mainContent #graphs #grafico #main #rowHistory2 #Monday{
+	position:absolute;
+	left:0;
+	margin:0;
+	padding:5px;
+	width:20%;
+	border:solid thin #CCC;
+	text-align:left;
+	height:20px;
+	
+}
+	
+#principal #mainContent #graphs #grafico #main #rowHistory2 #Tuesday{
+	position:absolute;
+	left:20%;
+	margin:0;
+	padding:5px 0;
+	width:20%;
+	border:solid thin #CCC;
+	text-align:center;
+	height:20px;
+	
+}
+
+
+#principal #mainContent #graphs #grafico #main #rowHistory2 #Wednesday{
+	position:absolute;
+	left:40%;
+	margin:0;
+	padding:5px 0;
+	width:20%;
+	border:solid thin #CCC;
+	text-align:center;
+	height:20px;
+}
+#principal #mainContent #graphs #grafico #main #rowHistory2 #Thursday{
+	position:absolute;
+	left:60%;
+	margin:0;
+	padding:5px 0;
+	width:20%;
+	border:solid thin #CCC;
+	text-align:center;
+	height:20px;
+}
+
+#principal #mainContent #graphs #grafico #main #rowHistory2 #Friday{
+	position:absolute;
+	left:80%;
+	margin:0;
+	padding:5px 0;
+	width:20%;
+	border:solid thin #CCC;
+	text-align:center;
+	height:20px;
+
+}
+
+#principal #mainContent #graphs #grafico #main #rowHistory2 #vacio3{
+	position:absolute;
+	left:100%;
+	margin:0;
+	padding:5px 0;
+	width:0;
+	visibility:hidden;
+height:20px;	
+
+
+}
+#principal #mainContent #graphs #grafico #main #rowHistory3 #Monday2{
+	position:absolute;
+	left:0;
+	margin:0;
+	padding:5px;
+	width:20%;
+	border:solid thin #CCC;
+	text-align:left;
+	background-color:#FFF;
+min-height:15px;
+	
+}
+	
+#principal #mainContent #graphs #grafico #main #rowHistory3 #Tuesday2{
+	position:absolute;
+	left:20%;
+	margin:0;
+	padding:5px;
+	width:20%;
+	border:solid thin #CCC;
+	text-align:center;
+	background-color:#FFF;
+	min-height:15px;
+	
+}
+
+
+#principal #mainContent #graphs #grafico #main #rowHistory3 #Wednesday2{
+	position:absolute;
+	left:40%;
+	margin:0;
+	padding:5px;
+	width:20%;
+	border:solid thin #CCC;
+	text-align:center;
+	background-color:#FFF;
+	min-height:15px;
+}
+#principal #mainContent #graphs #grafico #main #rowHistory3 #Thursday2{
+	position:absolute;
+	left:60%;
+	margin:0;
+	padding:5px;
+	width:20%;
+	border:solid thin #CCC;
+	text-align:center;
+	background-color:#FFF;
+	min-height:15px;
+}
+
+#principal #mainContent #graphs #grafico #main #rowHistory3 #Friday2{
+	position:relative;
+	left:80%;
+	margin:0;
+	padding:5px;
+	width:20%;
+	border:solid thin #CCC;
+	text-align:center;
+	background-color:#FFF;
+min-height:15px;
+}
+
+#principal #mainContent #graphs #grafico #main #rowHistory3 #vacio4{
+	position:relative;
+	left:100%;
+	margin:0;
+	padding:5px;
+	width:0;
+	visibility:hidden;
+background-color:#FFF;
+min-height:15px;
+}

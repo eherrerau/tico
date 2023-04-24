@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="../css/main.css" rel="stylesheet" type="text/css" />
+<link href="../lib/css/ui-lightness/jquery-ui-1.8.16.custom.css" rel="stylesheet" type="text/css" />
+<script src="../lib/js/jquery-1.6.2.min.js" type="text/javascript"></script> 
+<script src="../lib/js/jquery-ui-1.8.16.custom.min.js" type="text/javascript"></script> 
+<script src="../lib/js/script.js" type="text/javascript"></script>
+<script>
+	$(function() {
+		$( "#datepicker" ).datepicker();
+	});
+</script>
+</head>
+
+<body>
+<form action="../submit" method="get" name="addForm">
+  <div id="addForm1"><h2> Case #</h2></div><div id="addForm2"><input name="casetxt" type="text" size="15" maxlength="10" /></div>
+  <div id="addForm3"><h2> Engineer</h2></div><div id="addForm4"><select name="engineerlst">
+    <option>engineer name</option>
+  </select></div>
+  <div id="addForm5"><h2> Severity</h2></div><div id="addForm6"><select name="severitylst">
+    <option>4</option>
+    <option>3</option>
+    <option>2</option>
+    <option>1</option>
+  </select></div>
+  <div id="addForm7"><h2> callback?</h2></div><div id="addForm8"><input name="callbackchk" type="checkbox" value="" /></div>
+    <div id="addForm9"><h2> Date</h2></div><div id="addForm10"><input type="text" id="datepicker" size="10"></div>
+    <div id="addForm11"><input name="addbtn" type="button" value="Update" /></div>
+</form>
+</body>
+</html>

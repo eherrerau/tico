@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Cases Monitor</title>
+<link href="../css/main.css" rel="stylesheet" type="text/css" />
+<link href="../lib/css/ui-lightness/jquery-ui-1.8.16.custom.css" rel="stylesheet" type="text/css" />
+<script src="../lib/js/jquery-1.6.2.min.js" type="text/javascript"></script> 
+<script src="../lib/js/jquery-ui-1.8.16.custom.min.js" type="text/javascript"></script>
+<script src="../lib/js/script.js" type="text/javascript"></script>
+<script>
+	$(function() {
+		$( "#datepicker" ).datepicker();
+	});
+
+</script>
+<script>
+function calendario(){
+	datepicker();
+}
+</script>
+</head>
+<!-- ------------Body------------ -->
+<body>
+<div id="principal">
+    <!---------------------------------->	
+   	    <div id="header">
+        	<div id="titulo">
+        		<h1> Your brand </h1>
+            </div> <!-- titulo -->
+          <div id="info">
+              <h4> Username / ServerTime</h4>
+          </div><!-- info -->
+        </div><!-- header -->
+     <!---------------------------------->
+  <div id="menus">
+    		<div id="leftMenu">
+            	<div id="leftMenu1"><a href="add.html" onclick="return false;"></a></div>
+                <div id="leftMenu2"><a href="modify.html" onclick="return false;"></a></div>
+                <div id="leftMenu3"><a href="add.html" onclick="return false;"></a></div>
+                <div id="leftMenu4"><a href="add.html" onclick="return false;"></a></div>
+            </div><!-- leftMenu -->
+   		<div id="formulario">
+            	<form action="../submit" method="get" name="addForm">
+               	  <div id="addForm1"><h2> Selecciona una opción</h2></div><!--<div id="addForm2"><input name="casetxt" type="text" size="15" maxlength="10" /></div>
+                  <div id="addForm3"><h2> Engineer</h2></div><div id="addForm4"><select name="engineerlst">
+                    <option>engineer name</option>
+                  </select></div>
+                  <div id="addForm5"><h2> Severity</h2></div><div id="addForm6"><select name="severitylst">
+                    <option>4</option>
+                    <option>3</option>
+                    <option>2</option>
+                    <option>1</option>
+                  </select></div>
+                  <div id="addForm7"><h2> callback</h2></div><div id="addForm8"><input name="callbackchk" type="checkbox" value="" /></div>
+                    <div id="addForm9"><h2> Date</h2></div><div id="addForm10"><input type="text" id="datepicker" size="10"></div>
+                    <div id="addForm11"><input name="addbtn" type="button" value="Add" /></div>-->
+                </form>   
+                
+    		</div><!-- formulario -->
+            <div id="previewWin"> </div>
+            <div id="rightTop">
+           	  <div id="mainMenu">
+                	<ul>
+                    	<li><a href="#" class="current">Cases Monitor</a></li>
+                        <li><a href="../profile.php">My Profile</a></li>
+                        <li><a href="../index.php">Submit an ER</a></li>
+                        <li><a href="../index.php">Sign Out</a></li>
+                    </ul>
+                </div><!-- mainMenu -->
+              <div id="news">
+               	  <div id="titulo"><b>QM on Duty:</b></div>
+                  <div id="valor"><b>Fulano</b></div>
+              </div><!-- news -->
+            </div><!-- rightTop -->
+  		</div> <!-- Menus -->
+     <!---------------------------------->  
+     <div id="mainContent">
+     	<div id="engineers">
+       	  <div id="titulo1"><b>Available</b></div>
+            <div id="box1">
+            	<!--titulo-->
+              <div id="engineerT"><div id="person"><b>Engineer</b></div><div id="premier">P</div><div id="LW">LW</div><div id="Td">Td</div><div id="TW">TW</div><div id="Av">Av</div><div id="in">in</div><div id="out">out</div><div id="cases">Cases</div></div>
+              <!-------1------------>
+              <div id="engineer"><div id="person">engineer name</div><div id="premier"><img src="../images/premier.png" width="12" height="12" alt="Premier" /></div><div id="LW">2</div><div id="Td">0</div><div id="TW">5</div><div id="Av">12</div><div id="in">11:00</div><div id="out">19:00</div><div id="cases">o o</div></div>
+              <!-------2------------>
+               <div id="engineer"><div id="person">engineer name</div><div id="premier"><img src="../images/premier.png" width="12" height="12" alt="Premier" /></div><div id="LW">2</div><div id="Td">0</div><div id="TW">5</div><div id="Av">12</div><div id="in">11:00</div><div id="out">19:00</div><div id="cases">o o</div></div>
+               <!--------3----------->
+               <div id="engineer"><div id="person">engineer name</div><div id="premier"></div><div id="LW">2</div><div id="Td">0</div><div id="TW">5</div><div id="Av">12</div><div id="in">11:00</div><div id="out">19:00</div><div id="cases">o o</div></div>
+               <!--------4----------->
+               <div id="engineer"><div id="person">engineer name</div><div id="premier"></div><div id="LW">2</div><div id="Td">0</div><div id="TW">5</div><div id="Av">12</div><div id="in">11:00</div><div id="out">19:00</div><div id="cases">o o</div></div>
+               <!---------5---------->
+               <div id="engineer"><div id="person">engineer name</div><div id="premier"><img src="../images/premier.png" width="12" height="12" alt="Premier" /></div><div id="LW">2</div><div id="Td">0</div><div id="TW">5</div><div id="Av">12</div><div id="in">11:00</div><div id="out">19:00</div><div id="cases">o o</div></div>
+               <!---------6---------->
+               <div id="engineer"><div id="person">engineer name</div><div id="premier"><img src="../images/premier.png" width="12" height="12" alt="Premier" /></div><div id="LW">2</div><div id="Td">0</div><div id="TW">5</div><div id="Av">12</div><div id="in">11:00</div><div id="out">19:00</div><div id="cases">o o</div></div>
+               <!---------7---------->
+               <div id="engineer"><div id="person">engineer name</div><div id="premier"><img src="../images/premier.png" width="12" height="12" alt="Premier" /></div><div id="LW">2</div><div id="Td">0</div><div id="TW">5</div><div id="Av">12</div><div id="in">11:00</div><div id="out">19:00</div><div id="cases">o o</div></div>
+               <!---------8---------->
+               <div id="engineer"><div id="person">engineer name</div><div id="premier"></div><div id="LW">2</div><div id="Td">0</div><div id="TW">5</div><div id="Av">12</div><div id="in">11:00</div><div id="out">19:00</div><div id="cases">o o</div></div>
+               <!---------9---------->
+               <div id="engineer"><div id="person">engineer name</div><div id="premier"></div><div id="LW">2</div><div id="Td">0</div><div id="TW">5</div><div id="Av">12</div><div id="in">11:00</div><div id="out">19:00</div><div id="cases">o o</div></div>
+               <!----------10--------->
+               <div id="engineer"><div id="person">engineer name</div><div id="premier"></div><div id="LW">2</div><div id="Td">0</div><div id="TW">5</div><div id="Av">12</div><div id="in">11:00</div><div id="out">19:00</div><div id="cases">o o</div></div>
+            <!------------------->  
+            </div>
+            <div id="titulo2"><b>Lunch</b></div>
+            <div id="box2">
+            <!--titulo-->
+              <div id="engineerT"><div id="person"><b>Engineer</b></div><div id="premier">P</div><div id="LW">LW</div><div id="Td">Td</div><div id="TW">TW</div><div id="Av">Av</div><div id="in">in</div><div id="out">out</div><div id="cases">Cases</div></div>
+              <!----------1--------------->
+              <div id="engineer"><div id="person">engineer name</div><div id="premier"></div><div id="LW">2</div><div id="Td">0</div><div id="TW">5</div><div id="Av">12</div><div id="in">11:00</div><div id="out">19:00</div><div id="cases">o o</div></div>
+              <!---------2---------->
+               <div id="engineer"><div id="person">engineer name</div><div id="premier"></div><div id="LW">2</div><div id="Td">0</div><div id="TW">5</div><div id="Av">12</div><div id="in">11:00</div><div id="out">19:00</div><div id="cases">o o</div></div>
+               <!---------3---------->
+               <div id="engineer"><div id="person">engineer name</div><div id="premier"><img src="../images/premier.png" width="12" height="12" alt="Premier" /></div><div id="LW">2</div><div id="Td">0</div><div id="TW">5</div><div id="Av">12</div><div id="in">11:00</div><div id="out">19:00</div><div id="cases">o o</div></div>
+               <!----------4--------->
+               <div id="engineer"><div id="person">engineer name</div><div id="premier"><img src="../images/premier.png" width="12" height="12" alt="Premier" /></div><div id="LW">2</div><div id="Td">0</div><div id="TW">5</div><div id="Av">12</div><div id="in">11:00</div><div id="out">19:00</div><div id="cases">o o</div></div>
+               <!---------5---------->
+               <div id="engineer"><div id="person">engineer name</div><div id="premier"></div><div id="LW">2</div><div id="Td">0</div><div id="TW">5</div><div id="Av">12</div><div id="in">11:00</div><div id="out">19:00</div><div id="cases">o o</div></div>
+               <!---------6---------->
+               <div id="engineer"><div id="person">engineer name</div><div id="premier"><img src="../images/premier.png" width="12" height="12" alt="Premier" /></div><div id="LW">2</div><div id="Td">0</div><div id="TW">5</div><div id="Av">12</div><div id="in">11:00</div><div id="out">19:00</div><div id="cases">o o</div></div>
+               <!---------7---------->
+               <div id="engineer"><div id="person">engineer name</div><div id="premier"><img src="../images/premier.png" width="12" height="12" alt="Premier" /></div><div id="LW">2</div><div id="Td">0</div><div id="TW">5</div><div id="Av">12</div><div id="in">11:00</div><div id="out">19:00</div><div id="cases">o o</div></div>
+              
+            </div>
+            <div id="titulo3"><b>Experts</b></div>
+            <div id="box3">
+            <!--titulo-->
+             <div id="engineerT"><div id="person"><b>Engineer</b></div><div id="premier">P</div><div id="LW">LW</div><div id="Td">Td</div><div id="TW">TW</div><div id="Av">Av</div><div id="in">in</div><div id="out">out</div><div id="cases">Cases</div></div>
+             <!------------1------------->
+              <div id="engineer"><div id="person">engineer name</div><div id="premier"><img src="../images/premier.png" width="12" height="12" alt="Premier" /></div><div id="LW">2</div><div id="Td">0</div><div id="TW">5</div><div id="Av">12</div><div id="in">11:00</div><div id="out">19:00</div><div id="cases">o o</div></div>
+              <!-----------2-------------->
+              <div id="engineer"><div id="person">engineer name</div><div id="premier"><img src="../images/premier.png" width="12" height="12" alt="Premier" /></div><div id="LW">2</div><div id="Td">0</div><div id="TW">5</div><div id="Av">12</div><div id="in">11:00</div><div id="out">19:00</div><div id="cases">o o</div></div>
+              <!--------3----------->
+               <div id="engineer"><div id="person">engineer name</div><div id="premier"><img src="../images/premier.png" width="12" height="12" alt="Premier" /></div><div id="LW">2</div><div id="Td">0</div><div id="TW">5</div><div id="Av">12</div><div id="in">11:00</div><div id="out">19:00</div><div id="cases">o o</div></div>
+               <!--------4----------->
+               <div id="engineer"><div id="person">engineer name</div><div id="premier"><img src="../images/premier.png" width="12" height="12" alt="Premier" /></div><div id="LW">2</div><div id="Td">0</div><div id="TW">5</div><div id="Av">12</div><div id="in">11:00</div><div id="out">19:00</div><div id="cases">o o</div></div>
+               <!---------5---------->
+               <div id="engineer"><div id="person">engineer name</div><div id="premier"><img src="../images/premier.png" width="12" height="12" alt="Premier" /></div><div id="LW">2</div><div id="Td">0</div><div id="TW">5</div><div id="Av">12</div><div id="in">11:00</div><div id="out">19:00</div><div id="cases">o o</div></div>
+            </div>
+            <div id="titulo4"><b>Not Available</b></div>
+            <div id="box4">
+            <!--titulo-->
+              <div id="engineerT"><div id="person"><b>Engineer</b></div><div id="premier">P</div><div id="LW">LW</div><div id="Td">Td</div><div id="TW">TW</div><div id="Av">Av</div><div id="in">in</div><div id="out">out</div><div id="cases">Cases</div></div>
+              <!-----------1-------------------->
+              <div id="engineer"><div id="person">engineer name</div><div id="premier"><img src="../images/premier.png" width="12" height="12" alt="Premier" /></div><div id="LW">2</div><div id="Td">0</div><div id="TW">5</div><div id="Av">12</div><div id="in">11:00</div><div id="out">19:00</div><div id="cases">o o</div></div>
+              <!--------2----------->
+               <div id="engineer"><div id="person">engineer name</div><div id="premier"></div><div id="LW">2</div><div id="Td">0</div><div id="TW">5</div><div id="Av">12</div><div id="in">11:00</div><div id="out">19:00</div><div id="cases">o o</div></div>
+               <!-------3------------>
+               <div id="engineer"><div id="person">engineer name</div><div id="premier"><img src="../images/premier.png" width="12" height="12" alt="Premier" /></div><div id="LW">2</div><div id="Td">0</div><div id="TW">5</div><div id="Av">12</div><div id="in">11:00</div><div id="out">19:00</div><div id="cases">o o</div></div>
+               <!---------4---------->
+               <div id="engineer"><div id="person">engineer name</div><div id="premier"></div><div id="LW">2</div><div id="Td">0</div><div id="TW">5</div><div id="Av">12</div><div id="in">11:00</div><div id="out">19:00</div><div id="cases">o o</div></div>
+               <!---------5---------->
+               <div id="engineer"><div id="person">engineer name</div><div id="premier"></div><div id="LW">2</div><div id="Td">0</div><div id="TW">5</div><div id="Av">12</div><div id="in">11:00</div><div id="out">19:00</div><div id="cases">o o</div></div>
+               <!---------6---------->
+               <div id="engineer"><div id="person">engineer name</div><div id="premier"><img src="../images/premier.png" width="12" height="12" alt="Premier" /></div><div id="LW">2</div><div id="Td">0</div><div id="TW">5</div><div id="Av">12</div><div id="in">11:00</div><div id="out">19:00</div><div id="cases">o o</div></div>
+               <!----------7--------->
+               <div id="engineer"><div id="person">engineer name</div><div id="premier"><img src="../images/premier.png" width="12" height="12" alt="Premier" /></div><div id="LW">2</div><div id="Td">0</div><div id="TW">5</div><div id="Av">12</div><div id="in">11:00</div><div id="out">19:00</div><div id="cases">o o</div></div>
+               <!---------8---------->
+               <div id="engineer"><div id="person">engineer name</div><div id="premier"><img src="../images/premier.png" width="12" height="12" alt="Premier" /></div><div id="LW">2</div><div id="Td">0</div><div id="TW">5</div><div id="Av">12</div><div id="in">11:00</div><div id="out">19:00</div><div id="cases">o o</div></div>
+            </div>
+       </div><!-- engineers -->
+        <div id="graphs">
+   	    	<img src="../images/graph1.png" width="574" height="350" alt="Sample Graph" />
+        </div><!-- graphs -->
+     </div><!-- mainContent -->
+     <!----------------------------------> 
+	</div><!-- principal -->
+</body>
+<!-- ------------Body------------ -->
+</html>
